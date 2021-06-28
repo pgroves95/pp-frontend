@@ -45,6 +45,7 @@ export default function DrivewayIndividual({ match }) {
 		  showOneDriveway(dispatch, drivewayToShow);
 		};
 		getDriveway();
+		// eslint-disable-next-line
 	}, []);
 
 	const handleYOSubmit = (e) => {

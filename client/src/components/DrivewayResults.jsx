@@ -66,16 +66,19 @@ export default function DrivewayResults() {
 				center: [searchCoordinates[0], searchCoordinates[1]],
 				zoom: 14,
 			});
+			// eslint-disable-next-line
 			let marker1 = new mapboxgl.Marker()
 				.setLngLat([searchCoordinates[0], searchCoordinates[1]])
 				.addTo(map);
 		} else {
+			// eslint-disable-next-line
 			var map = new mapboxgl.Map({
 				container: "map",
 				style: "mapbox://styles/mapbox/streets-v11",
 				center: [-84.4008875, 33.755288],
 				zoom: 14.5,
 			});
+			// eslint-disable-next-line
 			let marker1 = new mapboxgl.Marker()
 				.setLngLat([-84.4008875, 33.755288])
 				.addTo(map);
@@ -144,9 +147,11 @@ export default function DrivewayResults() {
 
 	useEffect(() => {
 		getDrivewayData();
+		// eslint-disable-next-line
 	}, [searchCoordinates]);
 	useEffect(() => {
 		newLocation();
+		// eslint-disable-next-line
 	}, [dbDrivewayList]);
 
 	return (

@@ -199,6 +199,7 @@ export default function ProfileUser() {
 
 	useEffect(() => {
 		getReservationsData();
+		// eslint-disable-next-line
 	}, []);
 
 	return (
