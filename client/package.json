@@ -2,7 +2,8 @@
   "name": "parking-puppy",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "proxy": "https://shrouded-cove-47330.herokuapp.com/",
+  "homepage": "https://warm-bayou-65206.herokuapp.com/",
   "dependencies": {
     "@date-io/date-fns": "^2.10.11",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
