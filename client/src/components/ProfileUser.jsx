@@ -53,7 +53,7 @@ export default function ProfileUser() {
 
 	const getReservationsData = async () => {
 		const response = await fetch(
-			`http://localhost:3001/api/reservations/${profileData.id}`,
+			`https://shrouded-cove-47330.herokuapp.com/api/reservations/${profileData.id}`,
 			{
 				method: "GET",
 			}
@@ -64,7 +64,7 @@ export default function ProfileUser() {
 
 	const deleteReservation = async (id) => {
 		const response = await fetch(
-			`http://localhost:3001/api/reservations/${profileData.id}`,
+			`https://shrouded-cove-47330.herokuapp.com/api/reservations/${profileData.id}`,
 			{
 				method: "DELETE",
 				headers: {

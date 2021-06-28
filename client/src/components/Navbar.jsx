@@ -42,7 +42,7 @@ export default function Navbar() {
 	const profileData = useSelector((state) => state.profileData);
 
 	const logout = () => {
-		fetch("http://localhost:3001/api/users/logout", {
+		fetch("https://shrouded-cove-47330.herokuapp.com/api/users/logout", {
 			method: "GET",
 			credentials: 'include',
 			headers: {

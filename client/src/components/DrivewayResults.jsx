@@ -38,7 +38,7 @@ export default function DrivewayResults() {
 	const classes = useStyles();
 
 	const getDrivewayData = async () => {
-		const response = await fetch("http://localhost:3001/api/driveways", {
+		const response = await fetch("https://shrouded-cove-47330.herokuapp.com/api/driveways", {
 			method: "GET",
 		});
 		const parsedData = await response.json();

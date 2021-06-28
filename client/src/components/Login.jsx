@@ -31,7 +31,7 @@ export default function Login() {
 
 	const sendForm = (e) => {
 		e.preventDefault();
-		fetch("http://localhost:3001/api/users/login", {
+		fetch("https://shrouded-cove-47330.herokuapp.com/api/users/login", {
 			method: "POST",
 			body: JSON.stringify({ email, password }),
 			credentials: "include",
@@ -61,7 +61,7 @@ export default function Login() {
 	};
 
 	const getReservationsData = async () => {
-		const response = await fetch(`http://localhost:3001/api/reservations/${profileData.id}`, {
+		const response = await fetch(`https://shrouded-cove-47330.herokuapp.com/api/reservations/${profileData.id}`, {
 			method: "GET",
 		});
 		const parsedData = await response.json();

@@ -49,7 +49,7 @@ export default function DrivewayIndividual({ match }) {
 
 	const handleYOSubmit = (e) => {
 		e.preventDefault();
-		fetch("http://localhost:3001/api/reservations/new", {
+		fetch("https://shrouded-cove-47330.herokuapp.com/api/reservations/new", {
 			method: "POST",
 			
 			headers: {

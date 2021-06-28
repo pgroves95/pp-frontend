@@ -32,7 +32,7 @@ export default function RegisterUser() {
 
 	const sendForm = (e) => {
 		e.preventDefault();
-		fetch("http://localhost:3001/api/users/register", {
+		fetch("https://shrouded-cove-47330.herokuapp.com/api/users/register", {
 			method: "POST",
 			body: JSON.stringify({
 				first_name,
