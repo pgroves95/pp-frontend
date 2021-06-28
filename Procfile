@@ -1,0 +1,1 @@
+web: client/npm run build
