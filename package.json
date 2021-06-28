@@ -2,7 +2,7 @@
   "name": "parking-puppy",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://shrouded-cove-47330.herokuapp.com/",
+  "proxy": "",
   "homepage": "https://parking-puppy.netlify.app/",
   "dependencies": {
     "@date-io/date-fns": "^2.10.11",
