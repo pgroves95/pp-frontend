@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://shrouded-cove-47330.herokuapp.com/",
-  "homepage": "https://warm-bayou-65206.herokuapp.com/",
+  "homepage": "https://parking-puppy.netlify.app/",
   "dependencies": {
     "@date-io/date-fns": "^2.10.11",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
