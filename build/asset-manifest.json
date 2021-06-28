@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23baa935.chunk.css",
+    "main.js": "/static/js/main.647528a5.chunk.js",
+    "main.js.map": "/static/js/main.647528a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c38602de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c38602de.js.map",
+    "static/css/2.b4807e1b.chunk.css": "/static/css/2.b4807e1b.chunk.css",
+    "static/js/2.7b418746.chunk.js": "/static/js/2.7b418746.chunk.js",
+    "static/js/2.7b418746.chunk.js.map": "/static/js/2.7b418746.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b4807e1b.chunk.css.map": "/static/css/2.b4807e1b.chunk.css.map",
+    "static/css/main.23baa935.chunk.css.map": "/static/css/main.23baa935.chunk.css.map",
+    "static/js/2.7b418746.chunk.js.LICENSE.txt": "/static/js/2.7b418746.chunk.js.LICENSE.txt",
+    "static/media/avatar.db4704f2.png": "/static/media/avatar.db4704f2.png",
+    "static/media/dog1.3d69019b.png": "/static/media/dog1.3d69019b.png",
+    "static/media/dogrider.a3ac5eea.jpg": "/static/media/dogrider.a3ac5eea.jpg",
+    "static/media/emptydriveway.bd4f4af3.png": "/static/media/emptydriveway.bd4f4af3.png",
+    "static/media/Error.css": "/static/media/error.40423f3f.jpg",
+    "static/media/lostdog.a5817221.png": "/static/media/lostdog.a5817221.png",
+    "static/media/Login.css": "/static/media/oceandogs3.905c9205.jpeg",
+    "static/media/orange-paw.c5f3ebce.png": "/static/media/orange-paw.c5f3ebce.png",
+    "static/media/Landing.css": "/static/media/passengerdog.1b1d05ac.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c38602de.js",
+    "static/css/2.b4807e1b.chunk.css",
+    "static/js/2.7b418746.chunk.js",
+    "static/css/main.23baa935.chunk.css",
+    "static/js/main.647528a5.chunk.js"
+  ]
+}
